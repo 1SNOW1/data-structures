@@ -31,5 +31,6 @@ public class BigOSingleLoop {
 
         System.out.println("Number of operations: " + numberOfOperations + " in " + (endTime-startTime) + " milliseconds");
 
+        // Task 3 Three nested loops
     }
 }
