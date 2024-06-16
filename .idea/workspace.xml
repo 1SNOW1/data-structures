@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34fca93d-fe49-4ddd-bf95-09ce8b5d11a7" name="Changes" comment="recursion added">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MergeSort.java" afterDir="false" />
+    <list default="true" id="34fca93d-fe49-4ddd-bf95-09ce8b5d11a7" name="Changes" comment="QuickSort added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +49,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MergeSort">
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InsertionSort" />
+  <component name="RunManager" selected="Application.CountingSort">
+    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountingSort" />
       <module name="data-structures" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,15 +64,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickSort" />
       <module name="data-structures" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SelectionSort" />
+    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Recursion" />
       <module name="data-structures" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +87,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountingSort" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.Recursion" />
         <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718136464745</updated>
       <workItem from="1718136465881" duration="1149000" />
-      <workItem from="1718175231658" duration="15851000" />
+      <workItem from="1718175231658" duration="21679000" />
     </task>
     <task id="LOCAL-00001" summary="new project, data structures, started off working with the BigOSingleLoop">
       <option name="closed" value="true" />
@@ -137,7 +138,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718307463474</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="MergeSort added">
+      <option name="closed" value="true" />
+      <created>1718445278848</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1718445278848</updated>
+    </task>
+    <task id="LOCAL-00006" summary="MergeSort added">
+      <option name="closed" value="true" />
+      <created>1718445325594</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718445325594</updated>
+    </task>
+    <task id="LOCAL-00007" summary="QuickSort added">
+      <option name="closed" value="true" />
+      <created>1718454485602</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718454485602</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +173,8 @@
     <MESSAGE value="nested loop operations" />
     <MESSAGE value="added, BubbleSort, SelectionSort, InsertionSort, and ShellSort" />
     <MESSAGE value="recursion added" />
-    <option name="LAST_COMMIT_MESSAGE" value="recursion added" />
+    <MESSAGE value="MergeSort added" />
+    <MESSAGE value="QuickSort added" />
+    <option name="LAST_COMMIT_MESSAGE" value="QuickSort added" />
   </component>
 </project>
